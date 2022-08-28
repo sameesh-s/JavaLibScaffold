@@ -19,6 +19,16 @@ test {
     useJUnitPlatform()
 }
 
+//for test info
+tasks.withType(Test) {
+    testLogging {
+        exceptionFormat "full"
+        events "started", "skipped", "passed", "failed"
+        showStandardStreams true
+    }
+}
+//test info ending
+
 //this code will publish it in your local authorwise it will only build in lib
 publishing {
     publications {

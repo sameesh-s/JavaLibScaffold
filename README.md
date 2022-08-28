@@ -8,5 +8,9 @@ To create a utility lib using Gradle
 5) To publish the jar locally : using embedded gradle wrapper => ./gradle build publishToMavenLocal , to use local gradle => gradle build publishToMavenLocal
 6) To change the publishing to nexeus or remote repository change the values in build.gradle
 7) To locate locally build jar check m2 folder location (in linux where jar resides after publishing : /home/.m2)
+
+Usefull shortcuts in intellij 
+-----------------------------
+ctrl + shift + T : create and navigate between test in intellij
  
 
